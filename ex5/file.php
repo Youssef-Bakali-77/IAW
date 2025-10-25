@@ -1,6 +1,6 @@
 <?php
 $resultat='';
-$preu =floatval($_GET['Preu']);
+$preu =floatval($_GET['preu']);
 $iva =intval($_GET['iva']);
 
 if ($preu == false || $preu < 0) {
@@ -13,5 +13,5 @@ if ($preu == false || $preu < 0) {
 
     $resultat = $total;
 }
-echo "<p> El teu preu total es: $resultat";
+echo "<p> El teu preu total es: $resultat</p>";
 ?> 
