@@ -15,3 +15,4 @@ if ($preu == false || $preu < 0) {
 }
 echo "<p> El teu preu total es: $resultat</p>";
 ?> 
+,
