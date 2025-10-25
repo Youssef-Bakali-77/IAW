@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Conversió Euros ↔ Dòlars</title>
+</head>
+<body>
+    <h2>Conversor de moneda</h2>
+    <form action="/ex2/file.php" method="GET_or_POST">
+        <label for="quantitat">Introdueix la quantitat:</label>
+        <input type="number" name="quantitat" id="quantitat" required>
+
+        <br><br>
+
+        <label>Tipus de conversio:</label><br>
+        <input type="radio" name="conversio" value="eur_usd" checked> Euros a Dolars<br>
+        <input type="radio" name="conversio" value="usd_eur"> Dolars a Euros<br><br>
+
+        <input type="submit" value="Convertir">
+    </form>
+</body>
+</html>
+

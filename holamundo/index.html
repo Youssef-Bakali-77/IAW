@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <h1>Formulari d'inscripció</h1>
+    <form action="/holamundo/file.php" method="GET_or_POST">
+        <label for="idName">Nom</label>
+        <input type="text" name="Name" id="idName"><br><br>
+        <label for="idLastName">Cognom</label>
+        <input type="text" name="LastName" id="idLastName"><br><br>
+        <label for="idCFP">Cicle de Formació Profesional:</label>
+        <select name="CFGS" id="idCFP">
+            <option value="ASIX">Administració de Sistemes Informàtics i Xarxes</option>
+            <option value="DAM">Desenvolupament d'Aplicacions Web</option>
+            <option value="DAW">Desenvolupament d'Aplicacions Multiplataforma</option>
+            <option value="DAMvi">DAM amb especialitat en desenvolupament de videojocs</option>
+            <option value="DAMia">DAM amb especialitat en desenvolupament de models d'IA</option>
+            <option value="DAWia">DAW amb especialitat en desenvolupament de models d'IA</option>
+        </select>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

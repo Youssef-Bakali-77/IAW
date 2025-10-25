@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/ex5/file.php" method="GET_or_POST">
+        <br>
+label for="Preu">Introdueix quantitat</label>
+        <input type="number" name="preu" id="preu" required><br><br>
+        <p>Tipus d'IVA</p>
+        <input type="radio" name="iva" value="21" id="21" required>
+        <label for="21">IVA general (21%)</label><br>
+        <input type="radio" name="iva" value="10" id="10">
+        <label for="10">IVA reduït (10%)</label><br>
+        <input type="radio" name="iva" value="4" id="4">
+        <label for="4">IVA superreduït (4%)</label><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
